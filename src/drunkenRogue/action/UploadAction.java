@@ -54,6 +54,8 @@ public class UploadAction extends ActionSupport {
 		
 		FileUtils.copyFile(upload, new File("D:/uploadTest",uploadFileName));
 		return null;
+		
+		//sys
 	}
 
 }
